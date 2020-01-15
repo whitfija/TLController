@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1692e2e8-ddd4-4107-8b70-17228efc6555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Light.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Main.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Registration.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Settings.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Setup.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Temp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestForm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +35,9 @@
         <counts>
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="e#70#71#0" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -76,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="544">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,9 +134,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="93" />
-    <option name="y" value="-33" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="106" />
+    <option name="y" value="8" />
     <option name="width" value="960" />
     <option name="height" value="1030" />
   </component>
@@ -130,6 +147,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,17 +160,10 @@
               <item name="TLTesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TLTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TLTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TestForm" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +172,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="197" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="213" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578822540005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579061613238" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -218,17 +229,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="85" y="7" width="768" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.09865772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.21045198" />
       <window_info id="Structure" order="1" sideWeight="0.50147057" side_tool="true" weight="0.13087249" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.035460994" />
@@ -239,6 +249,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.035460994" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,10 +275,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#70#71#0" expanded="true" />
             <element signature="e#112#113#0" expanded="true" />
@@ -275,13 +289,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="544">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
