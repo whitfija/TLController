@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1692e2e8-ddd4-4107-8b70-17228efc6555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Light.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Main.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Registration.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Settings.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Setup.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Temp.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TL/TLController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Home.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="e#70#71#0" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -94,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/TestForm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,7 +158,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="197" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="213" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579061613238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579137312280" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -281,7 +267,7 @@
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#70#71#0" expanded="true" />
             <element signature="e#112#113#0" expanded="true" />
@@ -292,7 +278,7 @@
     <entry file="file://$PROJECT_DIR$/src/TestForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
