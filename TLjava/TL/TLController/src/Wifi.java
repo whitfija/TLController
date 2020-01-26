@@ -12,7 +12,7 @@ public class Wifi {
         JFrame frame = new JFrame("App");
         frame.setContentPane(new Wifi(frame).mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(640, 480);
+        frame.setSize(480, 640);
         frame.setUndecorated(true);
         frame.setVisible(true);
 

@@ -26,7 +26,7 @@
           <text value="The TL Controller"/>
         </properties>
       </component>
-      <component id="fcce2" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="fcce2" class="javax.swing.JTextField" binding="txtUser">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="220" height="-1"/>
@@ -37,7 +37,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="b2f1b" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+      <component id="b2f1b" class="javax.swing.JPasswordField" binding="txtPass">
         <constraints>
           <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="220" height="-1"/>
@@ -60,7 +60,7 @@
           <text value="Login"/>
         </properties>
       </component>
-      <component id="e39e" class="javax.swing.JLabel">
+      <component id="e39e" class="javax.swing.JLabel" binding="lblNotif">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>

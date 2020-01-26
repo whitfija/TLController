@@ -12,7 +12,7 @@ public class Registration {
         JFrame frame = new JFrame("App");
         frame.setContentPane(new Registration(frame).mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(640, 480);
+        frame.setSize(480, 640);
         frame.setUndecorated(true);
         frame.setVisible(true);
 

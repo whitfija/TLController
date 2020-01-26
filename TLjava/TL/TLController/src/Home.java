@@ -1,18 +1,23 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 // login, link to register, link to credits
 
 public class Home {
     private JPanel mainPanel;
-    private JTextField textField1;
-    private JPasswordField passwordField1;
+    private JTextField txtUser;
+    private JPasswordField txtPass;
     private JButton btnLogin;
     private JButton btnRegister;
     private JButton btnForgot;
     private JLabel lblTitle;
     private JButton btnWifi;
+    private JLabel lblNotif;
 
     public Home(JFrame frame) {
         //
@@ -30,6 +35,22 @@ public class Home {
                 Wifi.main(null);
             }
         });
+        btnLogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                String username = txtUser.getText();
+                char[] pswd = txtPass.getPassword();
+                String password = new String(pswd);
+                dbLogin("select * from users", username, password, frame);
+            }
+        });
+        btnForgot.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                frame.setVisible(false);
+                Forgot.main(null);
+            }
+        });
     }
 
     public static void main(String[] args){
@@ -40,5 +61,55 @@ public class Home {
         frame.setUndecorated(true);
         frame.setVisible(true);
 
+    }
+
+    public void dbLogin(String SQLquery, String username, String password, JFrame frame){
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3308/templightdb","root","admin");
+            Statement stmt=con.createStatement();
+            ResultSet rs=stmt.executeQuery(SQLquery);
+
+            boolean LoggedIn = false;
+            String currUser = "";
+            String currPass = "";
+            boolean accSetup = false;
+            while(rs.next()) {
+                //System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3)+"  "+rs.getString(4)+"  "+rs.getString(5));
+                if (LoggedIn) {
+                    break;
+                }
+
+                currUser = rs.getString(3);
+                currPass = rs.getString(4);
+                if ((currUser.equals(username)) && (currPass.equals(password))) {
+                    //System.out.println("LoggedIn");
+                    LoggedIn = true;
+
+                    if (rs.getInt(10) == 1) {
+                        accSetup = true;
+                    } else {
+                        accSetup = false;
+                    }
+
+                    if (accSetup) {
+                        System.out.println("toMain");
+                        frame.setVisible(false);
+                        Main.main(null);
+                    } else {
+                        System.out.println("toSetup");
+                        frame.setVisible(false);
+                        Setup.main(null);
+                    }
+                }
+                else {
+                    //System.out.println("noLogin");
+                }
+            }
+            con.close();
+        }catch(Exception e){
+            System.out.println(e);
+        }
+        lblNotif.setText("Invalid Username/Password. Try Again");
     }
 }

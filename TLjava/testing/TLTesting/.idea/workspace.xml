@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1692e2e8-ddd4-4107-8b70-17228efc6555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Forgot.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Forgot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Info.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/dbTest.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TL/TLController/src/dbTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/TLController.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/TLController.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Home$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Home$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Home$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Home$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Setup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/out/production/TLController/Setup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Home.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TL/TLController/src/Wifi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +39,10 @@
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="34">
               <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="e#70#71#0" expanded="true" />
@@ -116,9 +139,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1030" />
   </component>
@@ -128,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +166,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,7 +176,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="197" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="213" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579143352772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579143491343" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -211,10 +233,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="7" width="768" height="824" extended-state="0" />
-    <editor active="true" />
+    <frame x="768" y="0" width="768" height="824" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.21045198" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.22881356" />
       <window_info id="Structure" order="1" sideWeight="0.50147057" side_tool="true" weight="0.13087249" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,12 +278,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="34">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#70#71#0" expanded="true" />
@@ -270,6 +288,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestForm.java">
       <provider selected="true" editor-type-id="text-editor">
