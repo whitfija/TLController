@@ -1,13 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="GridLayoutManager">
+  <grid id="27dc6" binding="JPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="20" y="20" width="500" height="644"/>
     </constraints>
     <properties/>
     <border type="none"/>
-    <children/>
+    <children>
+      <grid id="398d4" binding="mainPanel" layout-manager="GridLayoutManager" row-count="15" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8428183"/>
+          <doubleBuffered value="true"/>
+          <font name="Berlin Sans FB Demi" size="22"/>
+          <foreground color="-3416"/>
+          <maximumSize width="480" height="640"/>
+          <minimumSize width="480" height="640"/>
+          <opaque value="true"/>
+          <preferredSize width="480" height="640"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="f7545">
+            <constraints>
+              <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="10" height="-1"/>
+                <preferred-size width="10" height="-1"/>
+                <maximum-size width="10" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="eee96">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="10" height="-1"/>
+                <preferred-size width="10" height="-1"/>
+                <maximum-size width="10" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="10069" class="javax.swing.JLabel" binding="lblHome">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Elephant" size="36"/>
+              <text value="[home name]"/>
+            </properties>
+          </component>
+          <component id="23080" class="javax.swing.JLabel" binding="lblRoom">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="137" height="26"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="28"/>
+              <text value="No Rooms Available"/>
+            </properties>
+          </component>
+          <component id="f440c" class="javax.swing.JLabel" binding="lblTemp">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Elephant" size="72"/>
+              <text value="0°"/>
+            </properties>
+          </component>
+          <component id="17469" class="javax.swing.JLabel" binding="lblLight">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="26"/>
+              <text value="No Lights Available"/>
+            </properties>
+          </component>
+          <vspacer id="ae61b">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="25" height="14"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="ba3ea">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="25" height="14"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="a6244">
+            <constraints>
+              <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="684eb">
+            <constraints>
+              <grid row="14" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="57b0e" class="javax.swing.JButton" binding="btnTemp">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="36"/>
+              <label value="Temperature Controls"/>
+              <text value="Temperature Controls"/>
+            </properties>
+          </component>
+          <component id="9668b" class="javax.swing.JButton" binding="btnLight">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="36"/>
+              <label value="Lighting Controls"/>
+              <text value="Lighting Controls"/>
+            </properties>
+          </component>
+          <component id="f747" class="javax.swing.JButton" binding="btnSettings">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="36"/>
+              <label value="Settings"/>
+              <text value="Settings"/>
+            </properties>
+          </component>
+          <component id="f2916" class="javax.swing.JButton" binding="DEFAULTButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="DEFAULT"/>
+            </properties>
+          </component>
+          <component id="ff10e" class="javax.swing.JButton" binding="GREENButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15353074"/>
+              <text value="GREEN"/>
+            </properties>
+          </component>
+          <component id="9216e" class="javax.swing.JButton" binding="BLUEButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-14608709"/>
+              <text value="BLUE"/>
+            </properties>
+          </component>
+          <component id="2ab74" class="javax.swing.JButton" binding="REDButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-4513509"/>
+              <text value="RED"/>
+            </properties>
+          </component>
+          <component id="b47e1" class="javax.swing.JButton" binding="button5" default-binding="true">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="8e69f" class="javax.swing.JButton" binding="button6" default-binding="true">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="bb207" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="OFF"/>
+            </properties>
+          </component>
+          <component id="c7861" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ON"/>
+            </properties>
+          </component>
+          <component id="eb7eb" class="javax.swing.JLabel" binding="lblStatus">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Elephant" size="20"/>
+              <text value="[status]"/>
+            </properties>
+          </component>
+          <component id="43853" class="javax.swing.JLabel" binding="lblColor">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Elephant" size="20"/>
+              <text value="[color]"/>
+            </properties>
+          </component>
+          <vspacer id="73f1a">
+            <constraints>
+              <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="25" height="14"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="9c738" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="PREV"/>
+            </properties>
+          </component>
+          <component id="dfda2" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="NEXT"/>
+            </properties>
+          </component>
+          <component id="c40a8" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="PREV"/>
+            </properties>
+          </component>
+          <component id="c4ad0" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="NEXT"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
   </grid>
 </form>

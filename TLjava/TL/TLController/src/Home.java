@@ -1,6 +1,9 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.Writer;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -73,7 +76,6 @@ public class Home {
             boolean LoggedIn = false;
             String currUser = "";
             String currPass = "";
-            boolean accSetup = false;
             while(rs.next()) {
                 //System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3)+"  "+rs.getString(4)+"  "+rs.getString(5));
                 if (LoggedIn) {
@@ -85,22 +87,14 @@ public class Home {
                 if ((currUser.equals(username)) && (currPass.equals(password))) {
                     //System.out.println("LoggedIn");
                     LoggedIn = true;
+                    System.out.println("toMain");
 
-                    if (rs.getInt(10) == 1) {
-                        accSetup = true;
-                    } else {
-                        accSetup = false;
-                    }
+                    // save id to file
+                    PrintWriter wr = new PrintWriter("data/login.txt");
+                    wr.print(rs.getString(1));
 
-                    if (accSetup) {
-                        System.out.println("toMain");
-                        frame.setVisible(false);
-                        Main.main(null);
-                    } else {
-                        System.out.println("toSetup");
-                        frame.setVisible(false);
-                        Setup.main(null);
-                    }
+                    frame.setVisible(false);
+                    Main.main(null);
                 }
                 else {
                     //System.out.println("noLogin");

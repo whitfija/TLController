@@ -1,19 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registration">
-  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="e7799" binding="mainPanel" layout-manager="GridLayoutManager" row-count="21" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="5" y="5" width="480" height="640"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-8428183"/>
+      <doubleBuffered value="true"/>
+      <font name="Berlin Sans FB Demi" size="22"/>
+      <foreground color="-3416"/>
+      <maximumSize width="480" height="640"/>
+      <minimumSize width="480" height="640"/>
+      <opaque value="true"/>
+      <preferredSize width="480" height="640"/>
+    </properties>
     <border type="none"/>
     <children>
-      <component id="bc0be" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="177" class="javax.swing.JLabel" binding="lblTitle">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <font name="Elephant" size="36"/>
+          <text value="Register your device."/>
+        </properties>
+      </component>
+      <component id="8f73c" class="javax.swing.JTextField" binding="txtUser">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="340" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b53ee" class="javax.swing.JPasswordField" binding="txtPass">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="340" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8f641" class="javax.swing.JButton" binding="btnLogin">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="22"/>
+          <label value="Return To Login"/>
+          <text value="Return To Login"/>
+        </properties>
+      </component>
+      <component id="7b061" class="javax.swing.JLabel" binding="lblNotif">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="22"/>
+          <text value="Enter your information below."/>
+        </properties>
+      </component>
+      <hspacer id="44310">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="-1"/>
+            <preferred-size width="10" height="-1"/>
+            <maximum-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="330df">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="-1"/>
+            <preferred-size width="10" height="-1"/>
+            <maximum-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="34606">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="7388d">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e11eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="94db6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="75837" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="22"/>
+          <label value="Register"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="85259" class="javax.swing.JTextField" binding="txtID">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="220" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d1a99" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Device ID"/>
+        </properties>
+      </component>
+      <component id="93b9e" class="javax.swing.JPasswordField" binding="txtConfirm">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="340" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9bed6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="80f16" class="javax.swing.JTextField" binding="txtEmail">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="340" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5091d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Contact Email"/>
+        </properties>
+      </component>
+      <component id="be9c" class="javax.swing.JTextField" binding="txtPhone1">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="74" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="0"/>
+          <font size="22"/>
+          <horizontalAlignment value="4"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="470c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Contact Phone Number"/>
+        </properties>
+      </component>
+      <component id="9a01f" class="javax.swing.JTextField" binding="txtPhone3">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="74" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a916e" class="javax.swing.JTextField" binding="txtPhone2">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="74" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="e0e44">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b3dd3" class="javax.swing.JTextField" binding="txtHome">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="340" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d7a57" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <text value="Household Name (ie: The Smith Home)"/>
         </properties>
       </component>
     </children>
