@@ -125,13 +125,22 @@ public class Registration {
             Statement stmt=con.createStatement();
             stmt.executeUpdate("INSERT INTO users (deviceid, username, password, name, email, phone1, phone2, `phone3`) VALUES ('"+ ID +"', '"+ username +"', '"+ password +"', '"+ home +"', '"+ email +"', '"+ phone1 +"', '"+ phone2 +"', '"+ phone3 +"');");
 
-            con.close();
 
             System.out.println("toSetup");
 
             // save id to file
-            PrintWriter wr = new PrintWriter("data/login.txt");
-            wr.print(ID);
+
+
+            ResultSet userinfo = stmt.executeQuery("SELECT * FROM users WHERE deviceid='" + ID + "';");
+            userinfo.next();
+            int homeID = parseInt(userinfo.getString(1));
+
+
+            PrintWriter wr = new PrintWriter("src/data/login.txt");
+            wr.println(homeID);
+
+            wr.close();
+            con.close();
 
             frame.setVisible(false);
             Main.main(null);

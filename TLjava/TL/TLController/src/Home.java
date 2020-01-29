@@ -76,6 +76,7 @@ public class Home {
             boolean LoggedIn = false;
             String currUser = "";
             String currPass = "";
+            int currID;
             while(rs.next()) {
                 //System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3)+"  "+rs.getString(4)+"  "+rs.getString(5));
                 if (LoggedIn) {
@@ -84,14 +85,16 @@ public class Home {
 
                 currUser = rs.getString(3);
                 currPass = rs.getString(4);
+                currID = rs.getInt(1);
                 if ((currUser.equals(username)) && (currPass.equals(password))) {
                     //System.out.println("LoggedIn");
                     LoggedIn = true;
                     System.out.println("toMain");
 
                     // save id to file
-                    PrintWriter wr = new PrintWriter("data/login.txt");
-                    wr.print(rs.getString(1));
+                    PrintWriter wr = new PrintWriter("src/data/login.txt");
+                    wr.println(currID);
+                    wr.close();
 
                     frame.setVisible(false);
                     Main.main(null);
