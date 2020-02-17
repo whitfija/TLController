@@ -69,10 +69,12 @@ public class Home {
     public void dbLogin(String SQLquery, String username, String password, JFrame frame){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3308/templightdb","root","admin");
+            Connection con= DriverManager.getConnection("jdbc:mysql://visidel.cau.edu:8080/templightdb","root","admin");
+            System.out.println("hi");
             Statement stmt=con.createStatement();
+            System.out.println("hi");
             ResultSet rs=stmt.executeQuery(SQLquery);
-
+            System.out.println("hi");
             boolean LoggedIn = false;
             String currUser = "";
             String currPass = "";

@@ -54,7 +54,7 @@ public class Main {
 
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3308/templightdb","root","admin");
+            Connection con= DriverManager.getConnection("jdbc:mysql://visidel.cau.edu:8080/templightdb","root","admin");
             Statement stmt=con.createStatement();
 
             ResultSet userinfo = stmt.executeQuery("SELECT * FROM users WHERE id='" + homeID + "';");
